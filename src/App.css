@@ -27,6 +27,52 @@
 .App-link {
   color: #61dafb;
 }
+.input{
+  font-size:14px;
+  height: 300px;
+  width: 800px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  width: 71%
+}
+.button{
+  margin-top: 3px;
+  color: white;
+  background-color: blue;
+  font-size: 16px;
+  padding: 14px 40px;
+}
+.response {
+  background-color: whitesmoke;
+  margin-left: 550px;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+}
+.left {
+  width: 50%;
+  height: 100vh;
+
+
+}
+
+.left h2 {
+  margin-top: 30px;
+  margin-right: 260px;
+  font-size: large;
+}
+.right {
+  width: 50%;
+  height: 100vh;
+
+
+}
+
 
 @keyframes App-logo-spin {
   from {
