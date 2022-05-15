@@ -1,15 +1,12 @@
 import React from "react";
 import Response from "./Response";
 
-function ResponseList() {
-  const data = [
-    { prompt: "Essay of aliens", Response: "XXXXX ALIENS" },
-    { prompt: "Essay of Elepahtns", Response: "XXXXX Elepahtns" },
-  ];
-
+function ResponseList({ data }) {
   return (
     <div>
-      <Response />
+      {data.map((item) => (
+        <Response prompt={item.prompt} response={item.response} />
+      ))}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Response() {
+function Response({ prompt, response }) {
   return (
     <div className="response">
       <div className="left">
@@ -8,12 +8,8 @@ function Response() {
         <h2>Response:</h2>
       </div>
       <div className="right">
-        <p>this is an example of the input they are gonna put</p>
-        <p>
-          This is an example of the response is an example of the response is an
-          example of the responseis an example of the responseis an example of
-          the response
-        </p>
+        <p>{prompt}</p>
+        <p>{response}</p>
       </div>
     </div>
   );
