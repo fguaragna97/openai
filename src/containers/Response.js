@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
+// here is the set up for each response that comes from the api.
 function Response({ prompt, response }) {
   return (
     <div className="bg-light p-3 mb-3">
