@@ -5,7 +5,7 @@ function ResponseList({ data }) {
   return (
     <>
       {data.map((item) => (
-        <Response prompt={item.prompt} response={item.response} />
+        <Response key={item.id} prompt={item.prompt} response={item.response} />
       ))}
     </>
   );
